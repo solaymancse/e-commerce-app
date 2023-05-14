@@ -33,7 +33,7 @@ const Header = () => {
                 <Link className="logo-text">FaDeli.</Link>
               </h2>
             </div>
-            <div className="col-5">
+            <div className="col-5 p-0">
               <div class="input-group">
                 <input
                   type="text"
@@ -88,10 +88,11 @@ const Header = () => {
 
                 <div className="menu-links">
                   <div className="d-flex align-item-center gap-15">
-                    <NavLink to="/home">Home</NavLink>
-                    <NavLink to="/our-store">Our Store</NavLink>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/store">Our Store</NavLink>
                     <NavLink to="/blogs">Blogs</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
+                   
                   </div>
                 </div>
               </div>

@@ -39,9 +39,9 @@ const Footer = () => {
               <address className="text-white">
                 Hno: 989 Near Dhanmondi,<br/>Dhaka-3456 ,Bangladesh<br/>Pin-Code : 2345
               </address>
-              <div>
-                <a href="">+91 8264958884</a><br/>
-              <a href="">fadeli@gmail.com</a><br/>
+              <div >
+                <a className="text-white" href="">+91 8264958884</a><br/>
+              <a className="text-white" href="">fadeli@gmail.com</a><br/>
               </div>
             </div>
             <div className="social-icons d-flex gap-10 py-3 align-items-center">

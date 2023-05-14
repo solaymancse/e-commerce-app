@@ -2,11 +2,21 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { categoriesList } from '../data'
 import { Advertisement } from '../components/Advertisement'
+import { Services } from '../components/Services'
+import { Categories } from '../components/Categories'
+import { SponserMarquee } from '../components/SponserMarquee'
+import { Blog } from '../components/Blog'
+import { FeatureCollection } from '../components/FeatureCollection'
+import { SpecialProduct } from '../components/SpecialProduct'
+import { FamousProducts } from '../components/FamousProducts'
+import { Meta } from '../components/Meta'
 
 const Home = () => {
   return (
     <>
-      <div className="home-wrapper-1 h-350px">
+    <Meta  title="FaDeli - Ecommerce"/>
+
+      <div className="home-wrapper-1">
         <div className="container-xxl">
           <div className="row">
             <div className="col-2 p-0">
@@ -25,12 +35,18 @@ const Home = () => {
               </div>
             </div>
           </div>
-         
+
         </div>
+        <Advertisement />  
+        <Services />
+        <Categories/>
+       <FeatureCollection/>
+       <SpecialProduct/>
+       <FamousProducts/>
+       <Blog/>
+       <SponserMarquee/>
       </div>
-     <div className="advertisement-wrapper py-4">
-     <Advertisement/>
-     </div>
+
 
     </>
   )

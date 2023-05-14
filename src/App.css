@@ -9,6 +9,10 @@ body {
     font-size: 12px;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 :root {
     --color-131921: #F57224;
     --logo-color: #F57224;
@@ -135,5 +139,176 @@ footer .input-group-text {
     height: 100%;
 }
 
+.advertisement-wrapper {
+    margin-left: 150px;
+    height: 220px;
+}
+
+.adver-img {}
+
+
+/* services section*/
+
+.services {}
+
+
+/* categories section*/
+
+.categories-item-list,
+.categories-item-list-2 {
+    width: 14%;
+    height: 152px;
+    background-color: #fff;
+    border: 0.1px solid lightgrey;
+    padding: 16px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.categories-item-list:hover,
+.categories-item-list-2:hover {
+    transform: scaleX(1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.categories-item-list:nth-child(8),
+.categories-item-list-2:nth-child(8) {
+    border-right: none;
+}
+
+.categories-item-list-2 {
+    border-top: 0.1px solid lightgrey;
+    border-left: none;
+    border-bottom: none;
+}
+
+.cat-img {
+    width: 80px;
+    height: 80px;
+}
+
+
+/* Marquee */
+
+.card-wrapper {
+    background-color: #fff;
+    padding: 15px;
+}
+
+
+/*blog*/
+
+.blog-btn {
+    background-color: #2E2E54;
+    color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.blog-btn:hover {
+    background-color: transparent;
+    color: #000;
+    border: 0.5px solid lightgrey;
+}
+
+
+/*Feature Collection*/
+
+.card {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-card:hover .action-bar {
+    right: 10px;
+}
+
+.card-img-top {
+    transition: 0.5s;
+}
+
+.card-img-top:nth-child(2) {
+    display: none;
+}
+
+.product-card:hover .card-img-top:nth-child(1) {
+    display: none;
+}
+
+.product-card:hover .card-img-top:nth-child(2) {
+    display: block;
+}
+
+.action-bar {
+    top: 15%;
+    right: -23px;
+    transition: 0.5s;
+}
+
+.wishlist-icon {
+    top: 5%;
+    right: 10px;
+}
+
+
+/*Special Products*/
+
+.button {
+    color: #F5F5F5;
+    background-color: var(--color-131921);
+    padding: 13px 33px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    color: #000;
+    background-color: lightcyan;
+    border-radius: 25px;
+}
+
+
+/*famous products*/
+
+.famous-card .content p {
+    color: gray;
+    text-transform: uppercase;
+}
+
 
 /* home end*/
+
+
+/*Our Store Start*/
+
+.filter-title {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style-type: none;
+    line-height: 30px;
+    color: gray;
+}
+
+.content .form-check-input:checked {
+    background-color: #F57224;
+    border-color: #F57224;
+}
+
+.content .form-check-input:focus {
+    box-shadow: none;
+}
+
+.sub-title {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+/*Our Store End*/
