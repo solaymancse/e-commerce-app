@@ -57,7 +57,7 @@ export const SpecialProduct = () => {
                                                 <p>Products : 5</p>
                                             </div>
                                             <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style={{width: '25%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar" role="progressbar" style={{width: '25%',backgroundColor:'#F57224'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                        

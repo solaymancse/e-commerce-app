@@ -140,8 +140,14 @@ footer .input-group-text {
 }
 
 .advertisement-wrapper {
-    margin-left: 150px;
     height: 220px;
+}
+
+.advertisement-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
 }
 
 .adver-img {}
@@ -192,12 +198,23 @@ footer .input-group-text {
 }
 
 
-/* Marquee */
+/* Marquee start*/
 
 .card-wrapper {
     background-color: #fff;
     padding: 15px;
 }
+
+
+/* Marquee end */
+
+
+/*Breadcrumb start*/
+
+.breadcrumb-title {}
+
+
+/*Breadcrumb end*/
 
 
 /*blog*/
@@ -284,6 +301,14 @@ footer .input-group-text {
 
 /*Our Store Start*/
 
+.store-wrapper {
+    background-color: #f5f5f5f5;
+}
+
+.store-wrapper .card {
+    border-radius: 10px;
+}
+
 .filter-title {
     font-size: 16px;
     line-height: 20px;
@@ -292,7 +317,7 @@ footer .input-group-text {
 
 .content ul {
     list-style-type: none;
-    line-height: 30px;
+    line-height: 20px;
     color: gray;
 }
 
@@ -309,6 +334,87 @@ footer .input-group-text {
     font-size: 13px;
     margin-bottom: 10px;
 }
+
+.colors {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.colors li {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+/*Product tag*/
+
+.product-tags {
+    flex-wrap: wrap;
+}
+
+
+/*Random Product*/
+
+.random-product {
+    margin-left: -20px;
+    margin-right: -10px;
+}
+
+.random-product {
+    border-bottom: 1px solid lightgrey;
+}
+
+.random-product h5 {
+    font-size: 12px;
+}
+
+.random-product h5:hover {
+    text-decoration: underline;
+}
+
+.star {
+    font-size: 15px;
+}
+
+
+/*Filter Sort grid start*/
+
+.filter-sort-grid {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grid img {
+    width: 35px;
+    height: 35px;
+    background-color: #f2f2f2f2;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.gr-12 {
+    width: 100%;
+}
+
+.gr-6 {
+    width: 49%;
+}
+
+.gr-4 {
+    width: 32%;
+}
+
+.gr-3 {
+    width: 24%;
+}
+
+
+/*Filter Sort grid end*/
 
 
 /*Our Store End*/

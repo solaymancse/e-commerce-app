@@ -88,7 +88,7 @@ const Footer = () => {
       <div className="container-xxl">
         <div className="row">
           <div className="col-12">
-            <p className="text-center mb-0">
+            <p className="text-center text-white mb-0">
               &copy;{new Date().getFullYear()};Developed By Solayman
             </p>
           </div>

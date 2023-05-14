@@ -71,7 +71,7 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <div className="menu-bottom d-flex align-item-center gap-30">
+              <div className="menu-bottom d-flex align-item-center gap-10">
 
                 <div class="dropdown">
                   <div

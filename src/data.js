@@ -30,6 +30,10 @@ import pro1 from './images/tab.jpg'
 import famous1 from './images/f1.png'
 import famous2 from './images/f2.jpg'
 import famous3 from './images/speaker.jpg'
+import random1 from './images/watch.jpg'
+import random2 from './images/tab.jpg'
+import random3 from './images/speaker.jpg'
+
 
 export const headerUpperLinks = [{
         icon: < IoIosGitCompare size = { 30 }
@@ -309,9 +313,24 @@ export const ourstore = [{
         check: 1
     },
     {
-        title: "Prduct Tags"
+        title: "Prduct Tags",
+        tags: 1,
+        productTags: ["Headphone", "Laptop", "Mobile", "Tab", "Wire", "Tv"]
     },
     {
-        title: "Random Product"
+        title: "Random Product",
+        random: 1,
+
+    },
+]
+export const randomProduct = [{
+        img: `${ random1 }`,
+        title: ["Kids Headphones Bulk 10 Pack Multi Colored For.."],
+        price: "$100"
+    },
+    {
+        img: `${ random2 }`,
+        title: ["APPLE Watch Series 2-43 Mm Satinless Steel."],
+        price: "$100"
     },
 ]
