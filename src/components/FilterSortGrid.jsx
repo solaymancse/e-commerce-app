@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ProductCard } from "./ProductCard";
 
 export const FilterSortGrid = () => {
-    const [grid, setGrid] = useState(4)
+    const [grid, setGrid] = useState(3)
 
   return (
     <>
@@ -34,7 +34,7 @@ export const FilterSortGrid = () => {
             </div>
         </div>
     </div>
-    <div className="gap-10 d-flex py-3 flex-wrap">
+    <div className="gap-12 d-flex py-3 flex-wrap">
         <ProductCard grid={grid}/>
     </div>
 </>

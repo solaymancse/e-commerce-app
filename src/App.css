@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 12px;
 }
 
@@ -14,11 +14,11 @@ html {
 }
 
 :root {
-    --color-131921: #F57224;
-    --logo-color: #F57224;
-    --search-icon: #F57224;
-    --search-bg: #F5F5F5;
-    --footer-bg: #2E2E54;
+    --color-131921: #f57224;
+    --logo-color: #f57224;
+    --search-icon: #f57224;
+    --search-bg: #f5f5f5;
+    --footer-bg: #2e2e54;
 }
 
 a {
@@ -58,12 +58,20 @@ a {
     gap: 10px;
 }
 
+.gap-12 {
+    gap: 12px;
+}
+
 .gap-15 {
     gap: 15px;
 }
 
 .gap-30 {
     gap: 30px;
+}
+
+.gap-50 {
+    gap: 40px;
 }
 
 .menu-links a,
@@ -104,7 +112,7 @@ footer:not(:first-child) {
 
 footer .input-group-text {
     background-color: var(--logo-color);
-    color: #F5F5F5;
+    color: #f5f5f5;
 }
 
 .social-icons a {
@@ -211,8 +219,6 @@ footer .input-group-text {
 
 /*Breadcrumb start*/
 
-.breadcrumb-title {}
-
 
 /*Breadcrumb end*/
 
@@ -220,15 +226,79 @@ footer .input-group-text {
 /*blog*/
 
 .blog-btn {
-    background-color: #2E2E54;
-    color: #F5F5F5;
+    background-color: #f57224;
+    color: #f5f5f5;
     border-radius: 10px;
+    font-size: 13px;
 }
 
 .blog-btn:hover {
     background-color: transparent;
     color: #000;
     border: 0.5px solid lightgrey;
+}
+
+.grid-card {
+    width: 22.5rem;
+}
+
+.grid-card-2 {
+    width: 20.5rem;
+}
+
+.card .blog-find {
+    border-radius: 20px;
+}
+
+.blog-find h5 {
+    font-size: 14px;
+}
+
+.blog-find ul {
+    list-style-type: none;
+}
+
+.blog-find ul>li {
+    margin-bottom: 8px;
+}
+
+.blog-img {
+    background-color: red;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 400px;
+}
+
+.author img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.author a {
+    font-size: 14px;
+    color: #F57224;
+}
+
+.blog-content .blog-title {
+    font-size: 30px;
+}
+
+.related-blog img {
+    width: 155px;
+}
+
+.blog-content-left {
+    padding-right: 40px;
+}
+
+.blog-content-left .blog-desc {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
 }
 
 
@@ -274,7 +344,7 @@ footer .input-group-text {
 /*Special Products*/
 
 .button {
-    color: #F5F5F5;
+    color: #f5f5f5;
     background-color: var(--color-131921);
     padding: 13px 33px;
     border-radius: 25px;
@@ -321,12 +391,14 @@ footer .input-group-text {
     color: gray;
 }
 
-.content .form-check-input:checked {
-    background-color: #F57224;
-    border-color: #F57224;
+.content .form-check-input:checked,
+.login-card-body .form-check-input:checked {
+    background-color: #f57224;
+    border-color: #f57224;
 }
 
-.content .form-check-input:focus {
+.content .form-check-input:focus,
+.login-card-body .form-check-input:checked {
     box-shadow: none;
 }
 
@@ -389,12 +461,17 @@ footer .input-group-text {
     border-radius: 10px;
 }
 
+.filter-sort-grid p {
+    font-weight: 500;
+}
+
 .grid img {
     width: 35px;
     height: 35px;
     background-color: #f2f2f2f2;
     border-radius: 3px;
     padding: 8px;
+    cursor: pointer;
 }
 
 .gr-12 {
@@ -413,8 +490,163 @@ footer .input-group-text {
     width: 24%;
 }
 
+.gr-12 .product-card .card-body {
+    display: flex;
+    gap: 20px;
+}
+
+.gr-12 .product-card .card-body .action-bar {
+    top: 20%;
+}
+
+.gr-12 .product-card .card-body .card-img-top {
+    width: 270px;
+}
+
 
 /*Filter Sort grid end*/
 
 
 /*Our Store End*/
+
+
+/* Contact Start*/
+
+.contact-inner-wrapper {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 20px;
+}
+
+.contact-inner-wrapper>div {
+    width: 48%;
+}
+
+.contact-inner-wrapper .contact-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+}
+
+.contact-inner-wrapper ul {
+    list-style: none;
+}
+
+
+/*Ques inner start*/
+
+.ques-inner-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.ques-inner-wrapper .ques-box {
+    border: 0.5px solid lightgrey;
+    padding: 20px;
+}
+
+.ques-inner-wrapper .ques-box a {
+    color: #1a9cb7;
+}
+
+.ques-inner-wrapper .ques-box h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+
+/*Ques inner end*/
+
+
+/* Contact end*/
+
+
+/* Compare Product start*/
+
+.compare-product .card-body .cross {
+    top: 25px;
+    right: 25px;
+    width: 22px;
+    height: 20px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.compare-product .product-details .details-body {
+    border-bottom: 0.5px solid lightgrey;
+}
+
+.compare-product .product-details h5 {
+    font-size: 14px;
+    line-height: 22px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 8px;
+}
+
+.compare-product .product-details .details-title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* Compare Product end*/
+
+
+/* Wishlis Product start*/
+
+.compare-product .wish-card-body .cross {
+    top: 15px;
+    right: 60px;
+    width: 22px;
+    height: 20px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+
+/* wishlist Product end*/
+
+
+/* Login  start*/
+
+.login-inner-wrapper {
+    width: 900px;
+}
+
+.login-card {
+    background-color: #fff;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.login-card-body>div {
+    width: 48%;
+}
+
+.login-card-body .fb-btn,
+.g-btn,
+.login-btn {
+    padding: 15px;
+}
+
+.login-card-body .fb-btn {
+    background-color: #3B5998;
+    color: #fff;
+}
+
+.login-card-body .g-btn {
+    background-color: #D34836;
+    color: #fff;
+}
+
+.login-card-body .login-btn {
+    background-color: #F57224;
+    color: #fff;
+}
+
+
+/* login end*/

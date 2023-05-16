@@ -9,12 +9,12 @@ const Header = () => {
       <header className="header-top-strip py-3">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-6">
+            <div className="col-6 p-0">
               <p className="text-white mb-0">
                 Free Shipping Over $150 & Free Returns
               </p>
             </div>
-            <div className="col-6 text-white">
+            <div className="col-6 text-white p-0">
               <p className="text-end mb-0">
                 Hotline:
                 <a className="text-white" href="tel:+91 8264958884">
@@ -28,7 +28,7 @@ const Header = () => {
       <header className="header-upper py-3">
         <div className="container-xxl">
           <div className="row align-items-center">
-            <div className="logo col-2">
+            <div className="logo col-2 p-0">
               <h2>
                 <Link className="logo-text">FaDeli.</Link>
               </h2>
@@ -46,8 +46,8 @@ const Header = () => {
                 </span>
               </div>
             </div>
-            <div className="col-5">
-              <div className="header-upper-links d-flex align-items-center justify-content-between">
+            <div className="col-5 p-0">
+              <div className="header-upper-links d-flex align-items-center justify-content-between" style={{marginLeft:'20px'}}>
                 {headerUpperLinks.map((item, index) => (
                   <div key={index}>
                     <Link

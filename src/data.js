@@ -4,7 +4,7 @@ import { BiLockAlt } from 'react-icons/bi'
 import { CiDeliveryTruck, CiPercent } from 'react-icons/ci'
 import { AiOutlineGift } from 'react-icons/ai'
 import { BiSupport } from 'react-icons/bi'
-import { MdPayment } from 'react-icons/md'
+import { MdPayment, MdOutlineAssignmentReturn, MdOutlineAssignmentReturned } from 'react-icons/md'
 import cat1 from './images/cat1.jpg'
 import cat2 from './images/cat2.jpg'
 import cat3 from './images/cat3.jpg'
@@ -32,7 +32,7 @@ import famous2 from './images/f2.jpg'
 import famous3 from './images/speaker.jpg'
 import random1 from './images/watch.jpg'
 import random2 from './images/tab.jpg'
-import random3 from './images/speaker.jpg'
+
 
 
 export const headerUpperLinks = [{
@@ -40,21 +40,21 @@ export const headerUpperLinks = [{
         />,
         title1: "Compare",
         title2: "Products",
-        link: "compare"
+        link: "/compare-product"
     },
     {
         icon: < AiOutlineHeart size = { 30 }
         />,
         title1: "Favourite",
         title2: "Wishlist",
-        link: "compare"
+        link: "/wishlist"
     },
     {
         icon: < BiLockAlt size = { 30 }
         />,
         title1: "Log into",
         title2: "My account",
-        link: "compare"
+        link: "login"
     },
     {
         icon: < AiOutlineShoppingCart size = { 30 }
@@ -197,7 +197,7 @@ export const blog = [{
         title: "A Beautiful Sunday Morning renanissance",
         date: "1 Feb, 2023",
         desc: "lorem ipsum dolor sit met consecture disping eiit, Dtidoe uewntsh moring le tude",
-        link: "/"
+        link: "/blog/888"
     },
     {
         img: `${blog2}`,
@@ -332,5 +332,51 @@ export const randomProduct = [{
         img: `${ random2 }`,
         title: ["APPLE Watch Series 2-43 Mm Satinless Steel."],
         price: "$100"
+    },
+];
+
+export const ques = [{
+        icon: < CiDeliveryTruck size = { 20 }
+        / > ,
+        title: "I want to know where is my Order is",
+        desc: " Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content"
+    },
+    {
+        icon: < MdOutlineAssignmentReturn size = { 20 }
+        / > ,
+        title: "I want to return an item",
+        desc: " Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content"
+    },
+    {
+        icon: < MdOutlineAssignmentReturned size = { 20 }
+        / > ,
+        title: "I want to cancel an order",
+        desc: " Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content"
+    },
+];
+export const compareproduct = [{
+        img: `${random1}`,
+        title: "Kids Headphones Bulk 10 Pack Multi Colored For",
+        name: ["Price", "Brand", "Type", "SKU", "Availability", "Color", "Size"],
+        nameValues: ["$100.98", "Habit", "Watch", "SKU003", "In Stock", "red", "S M L"],
+
+    },
+    {
+        img: `${random1}`,
+        title: "Kids Headphones Bulk 10 Pack Multi Colored For",
+        name: ["Price", "Brand", "Type", "SKU", "Availability", "Color", "Size"],
+        nameValues: ["$100.98", "Habit", "Watch", "SKU003", "In Stock", "red", "S M L"],
+    },
+    {
+        img: `${random1}`,
+        title: "Kids Headphones Bulk 10 Pack Multi Colored For",
+        name: ["Price", "Brand", "Type", "SKU", "Availability", "Color", "Size"],
+        nameValues: ["$100.98", "Habit", "Watch", "SKU003", "In Stock", "red", "S M L"],
+    },
+    {
+        img: `${random1}`,
+        title: "Kids Headphones Bulk 10 Pack Multi Colored For",
+        name: ["Price", "Brand", "Type", "SKU", "Availability", "Color", "Size"],
+        nameValues: ["$100.98", "Habit", "Watch", "SKU003", "In Stock", "red", "S M L"],
     },
 ]
